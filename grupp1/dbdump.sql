@@ -1,4 +1,9 @@
 -- Adminer 4.2.0 MySQL dump
+CREATE DATABASE grupp1;
+
+CREATE USER 'grupp1'@'localhost' IDENTIFIED BY 'grupp1';
+GRANT ALL PRIVILEGES ON grupp1 . * TO 'grupp1'@'localhost';
+
 
 SET NAMES utf8mb4;
 SET time_zone = '+00:00';
